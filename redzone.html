@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  
+<style>
+    
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: Red;
+    clear: left;
+    text-align: center;
+}
+
+    
+    
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 25px;
+    text-align: center;
+}
+table#t01 tr:nth-child(even) {
+    background-color: lightcoral;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: Grey;
+    color: white;
+}
+</style>
+</head>
+<body>
+ <div class="w3-row w3-border">
+  <div class="w3-container w3-teal">
+      <center><h1 style="height:62px;"><a href="home.php">SAFAI.in</a></h1></center>
+  </div>
+  
+</div>
+<div class="container">
+
+<header>
+   <h1>Red Zone</h1>
+</header>    
+
+<table id="t01">
+  <tr>
+    <th>Name of Areas</th>
+    <th>Zones</th> 
+    <th>Description</th>
+    <th>Loaction</th>
+  </tr>
+  <tr>
+      <td>khandwa Naka</td>
+    <td>Red</td>
+    <td><p>Khandwa Naka is a residential locality in the largest city and 
+            commercial hub Indore in the state of Madhya Pradesh, India.
+        Khandwa Naka area has an array of educational institutions starting from Nursery to Colleges.
+        It has CBSE as well as MP Board affiliated schools namely NDPS,[3] a reputed school of Indore.
+        Holy Cross School, Gurunanak Public School, Guru Harkishan School, Vedant Pre-School and
+        Queens' College.
+
+        Maharaja Ranjit Singh College of Professional Sciences,[4] a reputed college and IET-DAVV, 
+        the institute of Engineering and Technology and Arihant College.</p></td>
+    <td><a href="location.php?place=khandwanaka.jpg">Click here to find Location</a></td>
+  
+   <tr>
+    <td>Navlakha</td>
+    <td>Red</td>
+    <td><p>Navlakha is a residential locality within the city of Indore, Madhya Pradesh, India.
+            The area is named after the famous Navlakha Temple in the city of Indore.<br>
+
+Postal Code: 452012</p></td>
+    <td><a href="location.php?place=navlaksha.jpg">Click here to find Location</a></td>
+  </tr>
+  <tr>
+    <td>MusaKhedi</td>
+    <td>Red</td>
+    <td><p>Musakhedi is one of the dirtiest area of indore, Musakhedi is like outside area of indore.</p></td>
+    <td><a href="location.php?place=musakhedi.jpg">Click here to find Location</a></td>
+  </tr>
+</table>
+
+
+<footer><center>SAFAI.in</center></footer>
+
+</div>    
+    
+</body>
+</html>

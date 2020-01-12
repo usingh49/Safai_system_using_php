@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  
+<style>
+    
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: Blue;
+    clear: left;
+    text-align: center;
+}
+
+    
+    
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 25px;
+    text-align: center;
+}
+table#t01 tr:nth-child(even) {
+    background-color: lightblue;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: Grey;
+    color: white;
+}
+</style>
+</head>
+<body>
+<div class="w3-row w3-border">
+  <div class="w3-container w3-teal">
+      <center><h1 style="height:62px;"><a href="home.php">SAFAI.in</a></h1></center>
+  </div>
+  
+</div> 
+<div class="container">
+
+<header>
+   <h1>Blue Zones</h1>
+</header>    
+
+<table id="t01">
+  <tr>
+    <th>Name of Areas</th>
+    <th>Zones</th> 
+    <th>Description</th>
+    <th>Loaction</th>
+  </tr>
+  <tr>
+    <td>Bhanwar kuan</td>
+    <td>Blue</td>
+    <td><p>Bhanwar Kuan is one of the posh residential locality within the largest city and 
+            commercial hub Indore, Madhya Pradesh, India. <br>Postal Code: 452001</p></td>
+    <td><a href="location.php?place=bhawarkuan.jpg">Click here to find Location</a></td>
+  </tr>
+    <td>Rajendra Nagar</td>
+    <td>Blue</td>
+    <td><p>Rajendra Nagar is a residential locality in Indore, Madhya Pradesh, India.
+        It is located in south-west part and is one of the greenest localities of Indore.
+        more than 60% population is from Maharashtra & nearer to MHOW (Military Headquarters of WAR)
+        and largest military cantonment in Asia.</p></td>
+    <td><a href="location.php?place=rajendranagar.jpg">Click here to find Location</a></td>
+  </tr>
+  <tr>
+    <td>Rajwada</td>
+    <td>Blue</td>
+    <td><p>Rajwada is a historical palace in Indore city. It was built by the Holkars of the
+            Maratha Empire about two centuries ago. This seven storied structure is located near the
+            Chhatris and serves today as a fine example of royal grandeur and architectural skills.[1]</p></td>
+    <td><a href="location.php?place=rajwada.jpg">Click here to find Location</a></td>
+  </tr>
+
+</table>
+
+<footer><center>SAFAI.in</center></footer>
+
+</div>    
+    
+</body>
+</html>
